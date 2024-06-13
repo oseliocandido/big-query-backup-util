@@ -1,6 +1,6 @@
 #  Big Query Backup Util
 
-`The  Big Query Backup Util` is a solution to create backup of Big Query Objects DDL of Views and Table Functions. It get contents of CSV data exported from BQ, creating backup files in appropriate directories without overwriting.
+`The Big Query Backup Util` is a solution to create backup of Big Query Objects DDL of Views and Table Functions. Pulls the contents of CSV files exported from BQ, creating backup files in appropriate directories without overwriting.
 
 ## Prerequisites
 
@@ -23,6 +23,7 @@
    ```bash
     docker-compose run -e BACKUP_DATE=[YOUR_TIMESTAMP_HERE] gcp-backup-ddls
     ```
+    
 4.  **Confirm Operation ✅** 
     
     It will prompt for confirmation. Type `y` to proceed.
