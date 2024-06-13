@@ -18,12 +18,12 @@
 
 3. **Start the Container ▶️**
 
-    Run the container with a specific backup timestamp, overwriting the `BACKUP_DATE` environment variable.
+    Run the container with your backup timestamp, overwriting the `BACKUP_DATE` environment variable.
 
    ```bash
     docker-compose run -e BACKUP_DATE=[YOUR_TIMESTAMP_HERE] gcp-backup-ddls
     ```
-    
+
 4.  **Confirm Operation ✅** 
     
     It will prompt for confirmation. Type `y` to proceed.
