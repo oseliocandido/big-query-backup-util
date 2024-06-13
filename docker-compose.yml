@@ -1,0 +1,8 @@
+services:
+  gcp-backup-ddls:
+    build: .
+    environment:
+      - BACKUP_DATE=2024-06-10
+    volumes:
+      - ./Input/:/app/Input/
+      - ./Output/:/app/Output/
