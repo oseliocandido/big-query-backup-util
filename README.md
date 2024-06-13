@@ -14,7 +14,7 @@
     ```
 2.  **Get CSV Files 📄**
 
-    Place CSV files containing DDL statements in the `Input/Views` and `Input/Table_Functions` directories respectively.
+    Place CSV files containing DDL statements in the `Input/Views` and `Input/Table_Functions` directories accordingly.
 
 3. **Start the Container ▶️**
 
